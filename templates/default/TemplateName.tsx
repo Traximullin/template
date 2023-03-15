@@ -1,11 +1,11 @@
 import { FC } from "react"
 import styles from "./TemplateName.module.scss"
-import { TemplateNameProps } from './interface';
+import { ITemplateName } from "./interface";
 
-const TemplateName: FC<TemplateNameProps> = () => (
-  <div className={styles["template-name"]} data-testid="TemplateName">
-    Test Component
-  </div>
+const TemplateName: FC<ITemplateName> = () => (
+    <div className={styles["template-name"]} data-testid="TemplateName">
+      TemplateName
+    </div>
 );
 
 export default TemplateName;
