@@ -1,3 +1,3 @@
-export interface TemplateNameProps {
+export interface ITemplateName {
 
 } 
